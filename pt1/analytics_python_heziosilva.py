@@ -172,7 +172,6 @@ plt.show()
 
 grouped_data = df.groupby(['Ano_Mes', 'Produto'])['Quantidade'].sum().unstack(fill_value=0)
 
-# Now 'grouped_data_filled' is defined and can be used for plotting
 grouped_data_filled = grouped_data
 
 # Criar o gráfico de barras empilhadas
